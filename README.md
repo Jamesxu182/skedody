@@ -1,4 +1,4 @@
-skedody
+Skedody
 =======
 
-A Indenpendent website
+A Indenpendent Website
