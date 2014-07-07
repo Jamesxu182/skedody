@@ -4,6 +4,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	color: black;
 }
 
 body {
@@ -18,12 +19,17 @@ div#header {
 	clear: both;
 }
 
-div#header > span {
+span#skedody {
 	font-size: 50px;
 	font-weight: normal;
 	font-family: "Lucida Console", Monaco, monospace;
 	font-weight: 100;
 	letter-spacing: 10px;
+	border-radius: 3px;
+}
+
+span#skedody:hover {
+	box-shadow: 10px 10px 10px black;
 }
 
 div#nav hr {
@@ -48,7 +54,6 @@ div#nav li {
 	font-size: small;
 	font-weight: bold;
 	float: left;
-	color: black;
 	letter-spacing: 1px;
 }
 
@@ -116,11 +121,45 @@ div#main {
 	width: 80%;
 	height: 800px;
 	float: left;
-	text-align: center;
+}
+
+div#center {
+	float: left;
+	width: 75%;
 }
 
 div#mainimg {
-	display: inline-block;
-	position: relative;
-	right: 10%;
+	width: 100%;
+	height: 450px;
+	text-align: center;
+}
+
+div#maintext {
+	width: 100%;
+	height: 350px;
+}
+
+div#rightside {
+	width: 25%;
+	height: 800px;
+	float: right;
+}
+
+div#footer {
+	clear: both;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	letter-spacing: 3px;
+	word-spacing: 3px;
+}
+
+div#footer hr {
+	height: 10px;
+	width: 3px;
+	display: inline;
+}
+
+div#footer span {
+	padding: 10px;
 }
