@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+div#header {
+	margin: 0;
+	text-align: center;
+	padding-top: 50px;
+	clear: both;
+}
+
+div#header > span {
+	font-size: 50px;
+	font-weight: normal;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-weight: 100;
+	letter-spacing: 10px;
+}
+
+div#nav hr {
+	margin: 0 auto;
+	width: 70%;
+}
+
+div#nav {
+	clear: both;
+	text-align: center;
+}
+
+div#nav ul {
+	list-style-type: none;
+	display: inline-block;
+	position: relative;
+	top: 10px;
+}
+
+div#nav li {
+	font-family:"Times New Roman", Times, serif;
+	font-size: small;
+	font-weight: bold;
+	float: left;
+	color: black;
+	letter-spacing: 1px;
+}
+
+div#nav li + li {
+	margin-left: 100px;
+}
+
+div#catchword {
+	text-align: center;
+	font-style: italic;
+	word-spacing: 30px;
+	letter-spacing: 5px;
+	color: white;
+	background-color: white;
+	clear: both;
+}
+
+div#catchword span {
+	font-family:"Comic Sans MS", cursive;
+	position: relative;
+	top: -15px;
+	font-size: small;
+	border-radius: 3px;
+	padding: 0 3%;
+	padding-top: 2px;
+	background-color: black;
+	color: white;
+	display: inline-block;
+}
+
+div#aside {
+	width: 20%;
+	height: 800px;
+	backgroud-color: black;
+	float: left;
+}
+
+div#menu ul {
+	text-align: left;
+	margin: 0 40px;
+	list-style-type: circle;
+	float: left;
+	display: inline-block;
+}
+
+div#menu li {
+	margin-top: 50px;
+	font-size: larger;
+}
+
+div#menu a {
+	color: white;
+}
+
+
+div#aside hr {
+	weight: 1px;
+	height: 700px;
+	position: relative;
+	top: -80px;
+	float: right;
+}
+
+div#main {
+	width: 80%;
+	height: 800px;
+	float: left;
+	text-align: center;
+}
+
+div#mainimg {
+	display: inline-block;
+	position: relative;
+	right: 10%;
+}
