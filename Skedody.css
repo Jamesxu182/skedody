@@ -123,4 +123,5 @@ div#mainimg {
 	display: inline-block;
 	position: relative;
 	right: 10%;
+        overflow: hidden;
 }
