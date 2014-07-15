@@ -28,10 +28,6 @@ span#skedody {
 	border-radius: 3px;
 }
 
-span#skedody:hover {
-	box-shadow: 10px 10px 10px black;
-}
-
 div#nav hr {
 	margin: 0 auto;
 	width: 70%;
