@@ -4,33 +4,55 @@
 <meta charset="UTF-8">
 <title>Untitled Document</title>
 <link href="pgwslider.min.css" rel="stylesheet">
+<title>Tikslus carousel examples</title>
 <style>
 	<!--
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		
 		body {
 			background-color: black;
 			margin: 0;
 			padding: 0;
 		}
+		
+		div#header {
+			text-align: center;
+			color: white;
+			height: 100px;
+			padding: 40px;
+			font-family: "Times New Roman", Times, serif;
+		}
+		
 	-->
 </style>
 <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
 <script src="pgwslider.min.js"></script>
 <script type="text/javascript">
-    $(document).ready(function(){
-        $(document).ready(function() {
-            $('.pgwSlider').pgwSlider();
-        });
-    });
+
+$(document).ready(function(){
+
+	$(document).ready(function() {
+
+    	$('.pgwSlider').pgwSlider();
+
+	});
+
+});
 </script>
+
 </head>
 
 <body>
+	<div id="header"><h1>Working by Snake Wuu</h1></div>
 	<div>
 		<ul class="pgwSlider">
-    		<li><img src="img/1.jpg"></li>
-    		<li><img src="img/2.jpg"></li>
-    		<li><img src="img/3.jpg"></li>
-    		<li><img src="img/4.jpg"></li>
+    		<li><img src="img/1.jpg" alt="Glass Cup"></li>
+    		<li><img src="img/2.jpg" alt="Flower"></li>
+    		<li><img src="img/3.jpg" alt="foot"></li>
+    		<li><img src="img/4.jpg" alt="Notitle"></li>
 		</ul>
     </div>
 </body>

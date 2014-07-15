@@ -91,6 +91,11 @@ div#aside {
 	float: left;
 }
 
+div#menu {
+	width: 97%;
+	float: left;
+}
+
 div#menu ul {
 	text-align: left;
 	margin: 0 40px;
@@ -121,6 +126,7 @@ div#main {
 	width: 80%;
 	height: 800px;
 	float: left;
+	overflow: hidden;
 }
 
 div#center {
