@@ -1,11 +1,21 @@
 // JavaScript Document
 
-function displayItem(obj) {
-		obj.getElementsByTagName("a")[0].style.color = "black";
-		obj.style.listStyleType = "disc";
-}
-
-function disappearItem(obj) {
-		obj.getElementsByTagName("a")[0].style.color = "white";
-		obj.style.listStyleType = "circle";
-}
+$(document).ready(function() {
+		$("#skedody").mouseover(function() {
+			$(this).css({"box-shadow" : "10px 10px 10px black"});
+		});
+			
+		$("#skedody").mouseout(function() {
+			$(this).css({"box-shadow" : "0 0 0 white"});
+		});
+		
+		$("#fog li").mouseover(function() {
+			$(this).find("a").css({"color": "black"});	
+			$(this).css({"list-style-type" : "disc"});
+		});
+		
+		$("#fog li").mouseout(function() {
+			$(this).find("a").css({"color": "white"});
+			$(this).css({"list-style-type" : "circle"});
+		});
+});
