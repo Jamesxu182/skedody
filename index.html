@@ -4,6 +4,19 @@
 		<meta charset="UTF-8">
 		<title>Skedody</title>
         <link rel="stylesheet" type="text/css" href="Skedody.css" />
+		<script src="jquery-1.9.1.js"></script>
+        <script language="javascript">
+			$(document).ready(function() {	
+				$("#skedody").mouseover(function() {
+					$(this).css({"box-shadow" : "10px 10px 10px black"});
+				});
+			
+				$("#skedody").mouseout(function() {
+					$(this).css({"box-shadow" : "0 0 0 white"});
+				});
+			});
+			
+        </script>
 		<script src="Skedody.js"></script>
 	</head>
 	<body>
